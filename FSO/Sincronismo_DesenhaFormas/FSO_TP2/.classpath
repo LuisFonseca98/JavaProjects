@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_281"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/luisc/Desktop/Faculdade/Disciplinas/New/FSO_TP2/bluecove-2.1.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luisc/Desktop/Faculdade/Disciplinas/New/FSO_TP2/RobotLegoEV3_2021.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
