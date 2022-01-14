@@ -1,0 +1,49 @@
+reta 10
+reta -10
+esquerda 0 45
+reta -10
+esquerda 0 45
+direita 0 45
+esquerda 0 45
+esquerda 0 45
+direita 0 45
+parar false
+reta -10
+reta -10
+reta 10
+esquerda 0 45
+parar false
+esquerda 0 45
+esquerda 0 45
+reta 10
+reta -10
+reta 10
+direita 0 45
+parar false
+esquerda 0 45
+direita 0 45
+reta 10
+reta 10
+reta -10
+parar false
+esquerda 0 45
+esquerda 0 45
+reta 10
+parar false
+Robot EV3 Fechou.
+reta -10
+reta -10
+reta -10
+reta 10
+direita 0 45
+direita 0 45
+parar false
+reta 10
+direita 0 45
+esquerda 0 45
+parar false
+esquerda 0 45
+parar false
+direita 0 45
+esquerda 0 45
+parar false
