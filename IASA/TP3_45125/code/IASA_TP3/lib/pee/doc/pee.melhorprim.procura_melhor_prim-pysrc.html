@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>pee.melhorprim.procura_melhor_prim</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pee-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="pee-module.html">Package&nbsp;pee</a> ::
+        <a href="pee.melhorprim-module.html">Package&nbsp;melhorprim</a> ::
+        Module&nbsp;procura_melhor_prim
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="pee.melhorprim.procura_melhor_prim-pysrc.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<h1 class="epydoc">Source Code for <a href="pee.melhorprim.procura_melhor_prim-module.html">Module pee.melhorprim.procura_melhor_prim</a></h1>
+<pre class="py-src">
+<a name="L1"></a><tt class="py-lineno"> 1</tt>  <tt class="py-line"><tt class="py-comment"># -*- coding: utf-8 -*-</tt> </tt>
+<a name="L2"></a><tt class="py-lineno"> 2</tt>  <tt class="py-line"><tt class="py-docstring">"""</tt> </tt>
+<a name="L3"></a><tt class="py-lineno"> 3</tt>  <tt class="py-line"><tt class="py-docstring">Mecanismo de procura do tipo melhor-primeiro</tt> </tt>
+<a name="L4"></a><tt class="py-lineno"> 4</tt>  <tt class="py-line"><tt class="py-docstring">@author: Lu&#237;s Morgado</tt> </tt>
+<a name="L5"></a><tt class="py-lineno"> 5</tt>  <tt class="py-line"><tt class="py-docstring">"""</tt> </tt>
+<a name="L6"></a><tt class="py-lineno"> 6</tt>  <tt class="py-line"> </tt>
+<a name="L7"></a><tt class="py-lineno"> 7</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt id="link-0" class="py-name" targets="Package pee=pee-module.html"><a title="pee" class="py-name" href="#" onclick="return doclink('link-0', 'pee', 'link-0');">pee</a></tt><tt class="py-op">.</tt><tt id="link-1" class="py-name" targets="Package pee.mecproc=pee.mecproc-module.html"><a title="pee.mecproc" class="py-name" href="#" onclick="return doclink('link-1', 'mecproc', 'link-1');">mecproc</a></tt><tt class="py-op">.</tt><tt id="link-2" class="py-name" targets="Module pee.mecproc.mecanismo_procura=pee.mecproc.mecanismo_procura-module.html"><a title="pee.mecproc.mecanismo_procura" class="py-name" href="#" onclick="return doclink('link-2', 'mecanismo_procura', 'link-2');">mecanismo_procura</a></tt> <tt class="py-keyword">import</tt> <tt id="link-3" class="py-name" targets="Class pee.mecproc.mecanismo_procura.MecanismoProcura=pee.mecproc.mecanismo_procura.MecanismoProcura-class.html"><a title="pee.mecproc.mecanismo_procura.MecanismoProcura" class="py-name" href="#" onclick="return doclink('link-3', 'MecanismoProcura', 'link-3');">MecanismoProcura</a></tt> </tt>
+<a name="L8"></a><tt class="py-lineno"> 8</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt id="link-4" class="py-name"><a title="pee" class="py-name" href="#" onclick="return doclink('link-4', 'pee', 'link-0');">pee</a></tt><tt class="py-op">.</tt><tt id="link-5" class="py-name"><a title="pee.mecproc" class="py-name" href="#" onclick="return doclink('link-5', 'mecproc', 'link-1');">mecproc</a></tt><tt class="py-op">.</tt><tt id="link-6" class="py-name" targets="Package pee.mecproc.mem=pee.mecproc.mem-module.html"><a title="pee.mecproc.mem" class="py-name" href="#" onclick="return doclink('link-6', 'mem', 'link-6');">mem</a></tt><tt class="py-op">.</tt><tt id="link-7" class="py-name" targets="Module pee.mecproc.mem.memoria_prioridade=pee.mecproc.mem.memoria_prioridade-module.html"><a title="pee.mecproc.mem.memoria_prioridade" class="py-name" href="#" onclick="return doclink('link-7', 'memoria_prioridade', 'link-7');">memoria_prioridade</a></tt> <tt class="py-keyword">import</tt> <tt id="link-8" class="py-name" targets="Class pee.mecproc.mem.memoria_prioridade.MemoriaPrioridade=pee.mecproc.mem.memoria_prioridade.MemoriaPrioridade-class.html"><a title="pee.mecproc.mem.memoria_prioridade.MemoriaPrioridade" class="py-name" href="#" onclick="return doclink('link-8', 'MemoriaPrioridade', 'link-8');">MemoriaPrioridade</a></tt> </tt>
+<a name="L9"></a><tt class="py-lineno"> 9</tt>  <tt class="py-line"> </tt>
+<a name="L10"></a><tt class="py-lineno">10</tt>  <tt class="py-line"><tt class="py-comment">#_______________________________________________________________________________</tt> </tt>
+<a name="L11"></a><tt class="py-lineno">11</tt>  <tt class="py-line"> </tt>
+<a name="ProcuraMelhorPrim"></a><div id="ProcuraMelhorPrim-def"><a name="L12"></a><tt class="py-lineno">12</tt> <a class="py-toggle" href="#" id="ProcuraMelhorPrim-toggle" onclick="return toggle('ProcuraMelhorPrim');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="pee.melhorprim.procura_melhor_prim.ProcuraMelhorPrim-class.html">ProcuraMelhorPrim</a><tt class="py-op">(</tt><tt class="py-base-class">MecanismoProcura</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="ProcuraMelhorPrim-collapsed" style="display:none;" pad="++" indent="++++"></div><div id="ProcuraMelhorPrim-expanded"><a name="L13"></a><tt class="py-lineno">13</tt>  <tt class="py-line">    <tt class="py-docstring">"""Mecanismo de procura do tipo melhor-primeiro"""</tt> </tt>
+<a name="ProcuraMelhorPrim._iniciar_mem_procura"></a><div id="ProcuraMelhorPrim._iniciar_mem_procura-def"><a name="L14"></a><tt class="py-lineno">14</tt> <a class="py-toggle" href="#" id="ProcuraMelhorPrim._iniciar_mem_procura-toggle" onclick="return toggle('ProcuraMelhorPrim._iniciar_mem_procura');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="pee.melhorprim.procura_melhor_prim.ProcuraMelhorPrim-class.html#_iniciar_mem_procura">_iniciar_mem_procura</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="ProcuraMelhorPrim._iniciar_mem_procura-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="ProcuraMelhorPrim._iniciar_mem_procura-expanded"><a name="L15"></a><tt class="py-lineno">15</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt id="link-9" class="py-name"><a title="pee.mecproc.mem.memoria_prioridade.MemoriaPrioridade" class="py-name" href="#" onclick="return doclink('link-9', 'MemoriaPrioridade', 'link-8');">MemoriaPrioridade</a></tt><tt class="py-op">(</tt><tt class="py-name">self</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L16"></a><tt class="py-lineno">16</tt>  <tt class="py-line"> </tt>
+<a name="ProcuraMelhorPrim.prioridade"></a><div id="ProcuraMelhorPrim.prioridade-def"><a name="L17"></a><tt class="py-lineno">17</tt> <a class="py-toggle" href="#" id="ProcuraMelhorPrim.prioridade-toggle" onclick="return toggle('ProcuraMelhorPrim.prioridade');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="pee.melhorprim.procura_melhor_prim.ProcuraMelhorPrim-class.html#prioridade">prioridade</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">no</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="ProcuraMelhorPrim.prioridade-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="ProcuraMelhorPrim.prioridade-expanded"><a name="L18"></a><tt class="py-lineno">18</tt>  <tt class="py-line">        <tt class="py-docstring">"""Fun&#231;&#227;o de prioridade de um n&#243;</tt> </tt>
+<a name="L19"></a><tt class="py-lineno">19</tt>  <tt class="py-line"><tt class="py-docstring">        @param no: N&#243; a avaliar"""</tt> </tt>
+<a name="L20"></a><tt class="py-lineno">20</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-10" class="py-name" targets="Method pee.melhorprim.procura_aa.ProcuraAA.f()=pee.melhorprim.procura_aa.ProcuraAA-class.html#f,Method pee.melhorprim.procura_custo_unif.ProcuraCustoUnif.f()=pee.melhorprim.procura_custo_unif.ProcuraCustoUnif-class.html#f,Method pee.melhorprim.procura_melhor_prim.ProcuraMelhorPrim.f()=pee.melhorprim.procura_melhor_prim.ProcuraMelhorPrim-class.html#f,Method pee.melhorprim.procura_sofrega.ProcuraSofrega.f()=pee.melhorprim.procura_sofrega.ProcuraSofrega-class.html#f"><a title="pee.melhorprim.procura_aa.ProcuraAA.f
+pee.melhorprim.procura_custo_unif.ProcuraCustoUnif.f
+pee.melhorprim.procura_melhor_prim.ProcuraMelhorPrim.f
+pee.melhorprim.procura_sofrega.ProcuraSofrega.f" class="py-name" href="#" onclick="return doclink('link-10', 'f', 'link-10');">f</a></tt><tt class="py-op">(</tt><tt id="link-11" class="py-name" targets="Module pee.mecproc.no=pee.mecproc.no-module.html"><a title="pee.mecproc.no" class="py-name" href="#" onclick="return doclink('link-11', 'no', 'link-11');">no</a></tt><tt class="py-op">)</tt> </tt>
+</div><a name="L21"></a><tt class="py-lineno">21</tt>  <tt class="py-line"> </tt>
+<a name="ProcuraMelhorPrim.f"></a><div id="ProcuraMelhorPrim.f-def"><a name="L22"></a><tt class="py-lineno">22</tt> <a class="py-toggle" href="#" id="ProcuraMelhorPrim.f-toggle" onclick="return toggle('ProcuraMelhorPrim.f');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="pee.melhorprim.procura_melhor_prim.ProcuraMelhorPrim-class.html#f">f</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">no</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="ProcuraMelhorPrim.f-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="ProcuraMelhorPrim.f-expanded"><a name="L23"></a><tt class="py-lineno">23</tt>  <tt class="py-line">        <tt class="py-docstring">"""Fun&#231;&#227;o de custo de um n&#243;</tt> </tt>
+<a name="L24"></a><tt class="py-lineno">24</tt>  <tt class="py-line"><tt class="py-docstring">        @param no: N&#243; a avaliar"""</tt> </tt>
+<a name="L25"></a><tt class="py-lineno">25</tt>  <tt class="py-line">        <tt class="py-keyword">raise</tt> <tt class="py-name">NotImplementedError</tt> </tt>
+</div></div><a name="L26"></a><tt class="py-lineno">26</tt>  <tt class="py-line"> </tt><script type="text/javascript">
+<!--
+expandto(location.href);
+// -->
+</script>
+</pre>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pee-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Mon May 11 11:46:34 2015
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>
