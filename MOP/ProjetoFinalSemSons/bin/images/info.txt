@@ -1,0 +1,15 @@
+-> Quem somos nos?
+
+   Somos estudantes de engenharia informatica e multimedia do ISEL e produzimos este jogo no 
+ ambito da UC MOP. Os nossos nomes e numero de alunos sao:
+    
+    - Goncalo Almeida, A43746;
+    - Luis Fonseca,   A45125;
+
+-> Qual a opiniao acerca do grupo quanto ao desenvolvimento do jogo e o uso do Java?
+
+   O contacto com o Java foi  positivo para ambos. As ferramentas que o
+ Java proporciona sao muito ricas e sao de facil aprendizagem, no entanto implicam alguma pratica.
+ Sobre desenvolver um jogo de tabuleiro foi muito diferente do que imaginavamos. Dividimos o
+ trabalho por etapas e quando demos conta tinhamos um jogo de tabuleiro a funcionar. A partir
+ dai foi dar uso a nossa criatividade.

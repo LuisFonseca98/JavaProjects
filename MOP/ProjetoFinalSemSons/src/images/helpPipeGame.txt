@@ -1,0 +1,14 @@
+-> Como Jogar?
+
+E dado um conjunto de pecas, o jogador tem de colocar as pecas de  acordo com a 
+orientacao da agua,sendo possivel, tambem, roda-las. 
+Para mover a peca para dentro do tabuleiro, basta pressionar o botao
+do lado esquerdo e colocar onde deseja, e pressionar o botao do lado direito do rato 
+para rodar a peca.
+
+
+-> Quando ganha?
+Assim que a agua sair do ponto de comeco, o jogador tem de criar um caminho onde a agua 
+tenha de acabar. 
+O jogador ganha o jogo quando o caminho efetuado ate ao ponto de saida e valido, 
+caso contrario, perde o jogo e tem de recomecar de novo.
